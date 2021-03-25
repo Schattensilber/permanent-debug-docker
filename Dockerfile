@@ -6,7 +6,7 @@ USER root
 RUN mkdir /var/run/sshd
 
 RUN apt update && \
-	apt install -y supervisor maven openjdk-11-jdk openssh-server htop
+	apt install -y supervisor maven openjdk-11-jdk openssh-server htop nano vim
 
 EXPOSE 22
 
